@@ -3,6 +3,8 @@ import cors from "cors";
 import express from "express";
 import mongoose from "mongoose";
 import { examsRouter } from "./routes/exams.js";
+import { authRouter } from "./routes/auth.js";
+import { progressRouter } from "./routes/progress.js";
 
 const PORT = Number(process.env.PORT) || 3000;
 const MONGODB_URI = process.env.MONGODB_URI;
@@ -22,10 +24,14 @@ app.use(
   })
 );
 
+app.use(express.json({ limit: "50mb" }));
+
 app.get("/api/health", (_req, res) => {
   res.json({ ok: true, mongo: mongoose.connection.readyState === 1 });
 });
 
+app.use("/api/auth", authRouter);
+app.use("/api/progress", progressRouter);
 app.use("/api/exams", examsRouter);
 
 app.use((err, _req, res, _next) => {

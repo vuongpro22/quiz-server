@@ -1,0 +1,32 @@
+server {
+    server_name quiz.binhvuong.id.vn;
+    root /var/www/quiz;
+    index index.html;
+
+    location / {
+        # Đảm bảo React Router / Single Page App hoạt động bình thường khi reload trang
+        try_files $uri $uri/ /index.html;
+    }
+
+    # Cấu hình cache cho các file static (JS, CSS, hình ảnh) để tối ưu tốc độ tải trang
+    location /assets/ {
+        expires 1y;
+        add_header Cache-Control "public, no-transform";
+    }
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/quiz.binhvuong.id.vn/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/quiz.binhvuong.id.vn/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+}
+
+server {
+    if ($host = quiz.binhvuong.id.vn) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+    listen 80;
+    server_name quiz.binhvuong.id.vn;
+    return 404; # managed by Certbot
+}
