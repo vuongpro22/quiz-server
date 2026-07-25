@@ -1,0 +1,401 @@
+Question 1
+Why is clean architecture beneficial?
+A. Fewer files
+B. Easier maintenance and testing
+C. Better UI
+D. Faster builds
+
+Question 2
+What is Dart primarily designed for in the Flutter ecosystem?
+A. Database management
+B. User interface development
+C. General-purpose programming with UI focus
+D. Network security
+
+Question 3
+Why is secure authentication critical in mobile apps?
+A. UI quality
+B. Protect user data
+C. Reduce code
+D. Improve speed
+
+Question 4
+Which HTTP method is typically used to retrieve data?
+A. POST
+B. PUT
+C. GET
+D. DELETE
+
+Question 5
+What happens if a non-nullable variable is not initialized in Dart?
+A. The app runs normally
+B. A runtime exception occurs
+C. A compile-time error occurs
+D. The value becomes null automatically
+
+Question 6
+Which command builds a release APK?
+A. flutter run
+B. flutter build apk
+C. flutter doctor
+D. flutter clean
+
+Question 7
+Which widget allows overlapping of its child widgets?
+A. Column
+B. Row
+C. Stack
+D. Expanded
+
+Question 8
+Which platforms can Flutter applications target using a single codebase?
+A. Android only
+B. iOS only
+C. Android, iOS, web, and desktop
+D. Web servers only
+
+Question 9
+What is the main risk of improper state management?
+A. UI inconsistency
+B. Longer compile time
+C. Package conflicts
+D. Build errors
+
+Question 10
+What does CurvedAnimation provide?
+A. Layout control
+B. Animation curve behavior
+C. State updates
+D. Navigation
+
+Question 11
+How can data be passed to a new screen?
+A. Using global variables
+B. Via constructor arguments
+C. Using ThemeData
+D. Using Scaffold
+
+Question 12
+What is the purpose of parsing JSON?
+A. Encrypt data
+B. Convert JSON into Dart objects
+C. Send requests
+D. Cache responses
+
+Question 13
+Which phase involves gathering requirements?
+A. Implementation
+B. Design
+C. Analysis
+D. Testing
+
+Question 14
+Which Flutter tool helps debug network requests?
+A. DevTools
+B. Inspector
+C. Emulator
+D. Hot reload
+
+Question 15
+Which Dart feature supports object-oriented programming?
+A. Widgets
+B. Classes and objects
+C. Hot reload
+D. Layout builders
+
+Question 16
+Which approach helps reduce unnecessary widget rebuilds?
+A. Using global variables
+B. Fine-grained state updates
+C. Hot restart
+D. Large widgets
+
+Question 17
+Which action best demonstrates Flutter's reactive UI model?
+A. Manually updating UI elements
+B. Rebuilding UI in response to state changes
+C. Editing layout XML
+D. Calling native APIs
+
+Question 18
+Why are const widgets recommended?
+A. They improve readability
+B. They reduce rebuild cost
+C. They add state
+D. They handle navigation
+
+Question 19
+Why should animations be disposed properly?
+A. Improve UI
+B. Prevent memory leaks
+C. Speed up builds
+D. Fix layout
+
+Question 20
+Which Flutter test focuses on UI components?
+A. Unit test
+B. Widget test
+C. Integration test
+D. Load test
+
+Question 21
+Why should database operations be asynchronous?
+A. Simplify syntax
+B. Avoid blocking UI thread
+C. Reduce code
+D. Improve theme
+
+Question 22
+Why is Chapter 13 considered optional (Plus)?
+A. It replaces core concepts
+B. Apps can work without deep optimization
+C. It manages navigation
+D. It handles authentication
+
+Question 23
+Which widget applies a theme to an entire Flutter application?
+A. Scaffold
+B. Theme
+C. MaterialApp
+D. Container
+
+Question 24
+What is the purpose of SliverAppBar?
+A. Static app bar
+B. Scrollable flexible app bar
+C. Bottom navigation
+D. Drawer control
+
+Question 25
+Which widget is best used to add fixed empty space?
+A. Padding
+B. Expanded
+C. SizedBox
+D. Container
+
+Question 26
+Which package supports BLoC architecture?
+A. provider
+B. flutter_bloc
+C. sqlite
+D. http
+
+Question 27
+Which Flutter widget reacts to authentication state changes?
+A. FutureBuilder
+B. StreamBuilder
+C. ListView
+D. Form
+
+Question 28
+What is technical debt?
+A. UI lag
+B. Future cost of poor design decisions
+C. Memory usage
+D. API limit
+
+Question 29
+What is implicit animation?
+A. Manual animation control
+B. Animation without controller
+C. API animation
+D. Navigation animation
+
+Question 30
+Which Dart data structure is best suited for storing an ordered collection of items?
+A. Set
+B. Map
+C. List
+D. Queue
+
+Question 31
+Which Flutter concept supports reactive UI updates?
+A. Manual refresh
+B. Widget rebuilding
+C. Hot restart
+D. Native callbacks
+
+Question 32
+Which type of test checks individual functions or classes?
+A. Widget test
+B. Integration test
+C. Unit test
+D. System test
+
+Question 33
+What is the role of events in BLoC?
+A. Store UI
+B. Trigger state changes
+C. Render widgets
+D. Handle layout
+
+Question 34
+What is the main purpose of hot reload in Flutter?
+A. Improve runtime performance
+B. Instantly reflect code changes in UI
+C. Publish apps faster
+D. Reduce memory usage
+
+Question 35
+Why are forms important in mobile applications?
+A. UI decoration
+B. User data collection
+C. State management
+D. Navigation
+
+Question 36
+Which method retrieves data from SharedPreferences?
+A. get()
+B. read()
+C. fetch()
+D. load()
+
+Question 37
+What is the main benefit of Flutter's widget-based architecture?
+A. Widgets are only used for layout design
+B. Widgets allow code reuse across platforms
+C. Widgets automatically manage databases
+D. Widgets replace backend services
+
+Question 38
+Why are widgets lightweight in Flutter?
+A. They manage system resources
+B. They are immutable descriptions
+C. They store UI state
+D. They handle rendering directly
+
+Question 39
+Why should authentication state be centralized?
+A. Reduce UI code
+B. Ensure consistent access control
+C. Improve animations
+D. Simplify layout
+
+Question 40
+Which widget can hide user input text when configured for password entry?
+A. TextField
+B. ObscureText
+C. SecureInput
+D. PasswordField
+
+Question 41
+What is Flutter primarily used for?
+A. Designing databases for mobile apps
+B. Creating native applications from a single codebase
+C. Developing server-side applications only
+D. Building operating systems for mobile devices
+
+Question 42
+Which method resets all form fields?
+A. clear()
+B. reset()
+C. dispose()
+D. remove()
+
+Question 43
+Which Dart keyword is used to define a constant value at compile time?
+A. final
+B. static
+C. const
+D. var
+
+Question 44
+What happens after successful login?
+A. App closes
+B. User session starts
+C. Theme changes
+D. Navigation resets
+
+Question 45
+Which step is required before running a Flutter app for the first time?
+A. Publishing the app
+B. Setting up the Flutter SDK
+C. Configuring a database
+D. Writing backend APIs
+
+Question 46
+Which widget reacts to async data from local storage?
+A. FutureBuilder
+B. StreamBuilder
+C. ListView
+D. Provider
+
+Question 47
+What does golden testing verify?
+A. API responses
+B. UI appearance consistency
+C. Database state
+D. Authentication
+
+Question 48
+Why should state be kept as local as possible?
+A. Better animations
+B. Reduce unnecessary rebuilds
+C. Simplify UI
+D. Improve navigation
+
+Question 49
+What is the benefit of composing widgets in Flutter?
+A. Faster compilation
+B. Better code reuse and UI consistency
+C. Reduced memory usage
+D. Automatic navigation
+
+Question 50
+Which status code indicates server error?
+A. 200
+B. 301
+C. 404
+D. 500
+
+Câu	Đáp án
+1	B
+2	C
+3	B
+4	C
+5	C
+6	B
+7	C
+8	C
+9	A
+10	B
+11	B
+12	B
+13	C
+14	A
+15	B
+16	B
+17	B
+18	B
+19	B
+20	B
+21	B
+22	B
+23	C
+24	B
+25	C
+26	B
+27	B
+28	B
+29	B
+30	C
+31	B
+32	C
+33	B
+34	B
+35	B
+36	A
+37	B
+38	B
+39	B
+40	A
+41	B
+42	B
+43	C
+44	B
+45	B
+46	A
+47	B
+48	B
+49	B
+50	D
